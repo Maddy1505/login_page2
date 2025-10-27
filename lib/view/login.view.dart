@@ -15,7 +15,9 @@ class LoginView extends StatelessWidget {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Container(
+
             //color: Colors.blue,
+
             width: double.infinity,
             padding: const EdgeInsets.all(15.0),
             child: Column(
@@ -36,6 +38,7 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 50.0),
 
                 // Welcome Text & Login to your account
+
                 Text(
                   'Login to your account',
                   style: TextStyle(
@@ -48,6 +51,7 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 50.0),
 
                 // Email Input Field
+
                 TextForm(
                   controller: emailController,
                   text: 'Email',
@@ -58,6 +62,7 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 40.0),
 
                 // Password Input Field
+                
                 TextForm(
                   controller: passwordController,
                   text: 'Password',
