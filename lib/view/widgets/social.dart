@@ -23,84 +23,86 @@ class SocialForm extends StatelessWidget {
 
         // Social Media Buttons
 
-        Container(
-          width: MediaQuery.of(context).size.width * 0.8,
-          child: Row(
-            children: [
-          
-              // Google Button Icon
-          
-              Expanded(
-                child: Container(
-                  alignment: Alignment.center,
-                  height: 55,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(6),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 10
-                      )
-                    ]
-                  ),
-                  child: SvgPicture.asset(
-                    'assets/images/google.svg.svg',
-                    height: 30
-                  ),
-                ),
-              ),
-          
-              const SizedBox(width: 20.0),
-          
-              // Facebook Button Icon
-          
-              Expanded(
-                child: Container(
-                  alignment: Alignment.center,
-                  height: 55,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(6),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 10,
-                      ),
-                    ],
-                  ),
-                  child: SvgPicture.asset(
-                    'assets/images/facebook.svg.svg',
-                    height: 30,
+        SizedBox(
+          child: Container(
+            width: MediaQuery.of(context).size.width * 0.8,
+            child: Row(
+              children: [
+            
+                // Google Button Icon
+            
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    height: 55,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(6),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 10
+                        )
+                      ]
+                    ),
+                    child: SvgPicture.asset(
+                      'assets/images/google.svg.svg',
+                      height: 30
+                    ),
                   ),
                 ),
-              ),
-          
-              const SizedBox(width: 20.0),
-          
-              // Twitter Button Icon
-          
-              Expanded(
-                child: Container(
-                  alignment: Alignment.center,
-                  height: 55,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(6),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 10,
-                      ),
-                    ],
-                  ),
-                  child: SvgPicture.asset(
-                    'assets/images/twitter.svg.svg',
-                    height: 30,
+            
+                const SizedBox(width: 20.0),
+            
+                // Facebook Button Icon
+            
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    height: 55,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(6),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                    child: SvgPicture.asset(
+                      'assets/images/facebook.svg.svg',
+                      height: 30,
+                    ),
                   ),
                 ),
-              ),
-            ],
+            
+                const SizedBox(width: 20.0),
+            
+                // Twitter Button Icon
+            
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    height: 55,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(6),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                    child: SvgPicture.asset(
+                      'assets/images/twitter.svg.svg',
+                      height: 30,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ],

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_page/utils/global.colors.dart';
+import 'package:login_page/view/Sing.view.dart';
 import 'package:login_page/view/widgets/button.dart';
 import 'package:login_page/view/widgets/social.dart';
 import 'package:login_page/view/widgets/text.form.dart';
@@ -15,9 +16,7 @@ class LoginView extends StatelessWidget {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Container(
-
             //color: Colors.blue,
-
             width: double.infinity,
             padding: const EdgeInsets.all(15.0),
             child: Column(
@@ -38,7 +37,6 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 50.0),
 
                 // Welcome Text & Login to your account
-
                 Text(
                   'Login to your account',
                   style: TextStyle(
@@ -62,7 +60,6 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 40.0),
 
                 // Password Input Field
-                
                 TextForm(
                   controller: passwordController,
                   text: 'Password',
@@ -73,17 +70,13 @@ class LoginView extends StatelessWidget {
                 const SizedBox(height: 35.0),
 
                 //ButtonsForm Input Field
-
                 const ButtonsForm(),
 
                 //End
-
                 const SizedBox(height: 35.0),
 
                 // Sign in with social media
-                
                 SocialForm(),
-
               ],
             ),
           ),
@@ -104,11 +97,25 @@ class LoginView extends StatelessWidget {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            Text(
+            /*Text(
               ' Sign Up',
               style: TextStyle(
                 color: GlobalColors.mainColor,
                 fontWeight: FontWeight.w600,
+              ),
+            ),*/
+            TextButton(
+              onPressed: () {
+                Navigator.of(
+                  context,
+                ).push(MaterialPageRoute(builder: (context) => Singview()));
+              },
+              child: Text(
+                'Sing Up',
+                style: TextStyle(
+                  color: GlobalColors.mainColor,
+                  fontWeight: FontWeight.w700,
+                ),
               ),
             ),
           ],

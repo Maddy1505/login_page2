@@ -6,7 +6,7 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {     /* does not store internal state */
   const MyApp({super.key});
 
   @override
@@ -19,3 +19,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
