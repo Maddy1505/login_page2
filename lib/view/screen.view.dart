@@ -382,14 +382,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
                 
                                     Text(
-                                      "Mount Fuji",
+                                      "Machu Picchu",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "Peru",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
@@ -457,14 +457,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
 
                                     Text(
-                                      "Mount Fuji",
+                                      "Mount Kilimanjaro",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "Tanzania",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
@@ -532,14 +532,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
 
                                     Text(
-                                      "Mount Fuji",
+                                      "Everest Base Camp",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "Nepal",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
@@ -607,14 +607,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
 
                                     Text(
-                                      "Mount Fuji",
+                                      "Mountain Trails",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "Munnar",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
@@ -682,14 +682,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
 
                                     Text(
-                                      "Mount Fuji",
+                                      "Solang Valley",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "Manali",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
@@ -758,14 +758,14 @@ class ScreenView extends StatelessWidget {
                                     SizedBox(height: 180.0),
 
                                     Text(
-                                      "Mount Fuji",
+                                      "Queenstown",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
                                       ),
                                     ),
                                     Text(
-                                      "Tokyo",
+                                      "New Zealand",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Poppins',
