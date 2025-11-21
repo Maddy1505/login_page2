@@ -37,6 +37,7 @@ dependencies:
   get: ^4.7.2
   hexcolor: ^3.0.1
   flutter_svg:
+  google_fonts: ^6.3.2
   
 
 dev_dependencies:
@@ -79,8 +80,12 @@ flutter:
   # example:
   fonts:
       - family: Poppins
-      - fonts:
-        - asset: fonts/Poppins-Regular.ttf
+        fonts:
+            - asset: assets/fonts/Poppins-SemiBold.ttf
+      - family: SquarePeg
+        fonts:
+            - asset: assets/fonts/SquarePeg-Regular.ttf
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

@@ -1,5 +1,4 @@
 // ignore_for_file: avoid_print
-
 import 'package:flutter/material.dart';
 import 'package:login_page/utils/global.colors.dart';
 import 'package:login_page/view/screen.view.dart';
@@ -11,7 +10,10 @@ class ButtonsForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        print('Login');
+        //print('Login');
+        Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => ScreenView()));
       },
       child: Container(
         alignment: Alignment.center,
@@ -63,3 +65,5 @@ class ButtonsFormUp extends StatelessWidget {
     );
   }
 }
+
+
